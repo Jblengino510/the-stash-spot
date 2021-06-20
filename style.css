@@ -1,3 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+* {
+  font-family: 'Orbitron', sans-serif;
+  color: #777;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li{
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .5em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.nav a:hover {
+  background-color: rgb(255, 255, 255, .3);
+}
+
+.main-header {
+  background-color: rgb(0, 0, 0, .9);
+  background-image: url("images/jblenz\ name\ copy.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.play-btn:hover {
+  background-color: rgb(255, 255, 255, .8);
+  cursor: pointer;
+}
+
+.home-title {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+}
+
 body {
     background: rgb(31, 31, 85);
   } 
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.about-image {
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-footer {
+  background-color: rgba(26, 26, 26, .9);
+}
+
+.footer-nav li {
+  padding: 0 1em; 
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
