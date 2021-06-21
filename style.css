@@ -50,6 +50,14 @@ html, body {
   padding-bottom: 30px;
 }
 
+.play-btn {
+  padding: 10px;
+  font: 24px;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: block;
+}
+
 .play-btn:hover {
   background-color: rgb(255, 255, 255, .8);
   cursor: pointer;
@@ -59,6 +67,12 @@ html, body {
   text-align: center;
   margin: 0;
   font-size: 4em;
+}
+
+.home-img {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 body {
@@ -106,7 +120,7 @@ body {
   box-shadow: 0px 0px 20px #ffffff10;
   background-color: rgba(26, 26, 26, .9);
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: px;
 }
 
 .form-group {
@@ -132,10 +146,14 @@ button[type="submit"] {
   width: 100%;
   border: none;
   outline: none;
-  padding: 20px;
+  padding: 10px;
   font: 24px;
   border-radius: 8px;
   margin-top: 10px;
+}
+button[type="submit"]:hover {
+  background-color: rgb(255, 255, 255, .8);
+  cursor: pointer;
 }
 
 #status {
@@ -174,13 +192,23 @@ button[type="submit"] {
 
 .main-footer {
   background-color: rgba(26, 26, 26, .9);
+  padding: 0 0;
+  padding-bottom: .25em;
 }
 
 .footer-nav li {
-  padding: 0 9em;
+  padding: 0 5em;
 }
 
 .footer-nav img {
   width: 50px;
   height: 50px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h4 {
+  text-align: center;
 }

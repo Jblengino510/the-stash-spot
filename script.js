@@ -1,10 +1,6 @@
-const h2 = document.createElement('h2');
-h2.textContent = "This content added by JavaScript"; 
-
-//document.querySelector('body').appendChild(h2); 
 
 
-//JS for contact form
+//JavaScript for the contact form
 var form = document.getElementById("my-form");
     
     async function handleSubmit(event) {
